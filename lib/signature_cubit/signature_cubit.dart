@@ -82,7 +82,7 @@ class SignatureCubit extends Cubit<SignatureStates> {
     emit(MoveSignatureAnnotationState());
   }
 
-  // Capture signature as Uint8List and load it as ui.Image
+  // Capture signature as Uint8List and load it as ui.Image 
   // Capture signature as Uint8List and load it as ui.Image
   Future<ui.Image?> _captureSignature() async {
     final Uint8List? signatureBytes = await controller.toPngBytes();
